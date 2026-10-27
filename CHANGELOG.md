@@ -24,3 +24,7 @@
 - Android: when resizing (or preserveResolution=false), align dimensions to even numbers (×2) for encoder compatibility
 - Docs: README updated with progress usage, parameters table, platform notes
 - Dart: expose `calculateCompressionStats` helper to compute the compression ratio
+
+## 0.0.5
+- V1 Sports fork: Android only. Removed the iOS implementation so the plugin no longer
+  shows up in Flutter's Swift Package Manager warnings (V1 transcodes on iOS in the host app).

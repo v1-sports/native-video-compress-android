@@ -1,5 +1,9 @@
 # native_video_compress
 
+> **V1 Sports fork — Android only.** Forked from
+> [Dansot4891/native-video-compress](https://github.com/Dansot4891/native-video-compress) 0.0.4
+> with the iOS implementation removed. V1 transcodes on iOS through the host app instead.
+
 A Flutter plugin that compresses video files using native encoders on iOS and Android.
 
 ---
@@ -20,9 +24,8 @@ A Flutter plugin that compresses video files using native encoders on iOS and An
 
 ## 🧭 Supported Platforms
 - Android
-- iOS
 
-Not supported: Web, macOS, Windows, Linux.
+Not supported: iOS (removed in this fork), Web, macOS, Windows, Linux.
 
 ---
 
