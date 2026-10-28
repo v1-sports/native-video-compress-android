@@ -1,8 +1,8 @@
 name: native_video_compress
-description: "A Flutter plugin for native video compression on iOS and Android."
-version: 0.0.4
-homepage: https://github.com/Dansot4891/native-video-compress
-repository: https://github.com/Dansot4891/native-video-compress
+description: "Android-only fork of native_video_compress (V1 Sports). iOS uses AVAssetExportSession in the host app."
+version: 0.0.5
+homepage: https://github.com/v1-sports/native-video-compress-android
+repository: https://github.com/v1-sports/native-video-compress-android
 license: MIT
 
 environment:
@@ -27,6 +27,4 @@ flutter:
     platforms:
       android:
         package: com.example.native_video_compress
-        pluginClass: NativeVideoCompressPlugin
-      ios:
         pluginClass: NativeVideoCompressPlugin
